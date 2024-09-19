@@ -55,7 +55,7 @@ const SearchUser = ({onClose}) => {
                 {/**no user found */}
                 {
                     searchUser.length === 0 && !loading && (
-                        <p className='text-center text-slate-500'>no user found!</p>
+                        <p className='text-center text-slate-500'>Usuario não encontrado!</p>
                     )
                 } 
 
