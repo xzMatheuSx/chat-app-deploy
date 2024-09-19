@@ -14,7 +14,7 @@ app.use(cors({
 app.use(express.json())
 app.use(cookiesParser())
 
-const PORT = process.env.PORT || 8080
+const PORT = process.env.PORT || 10000
 
 app.get('/',(request,response)=>{
     response.json({
